@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+
 import Keyboard from "./Keyboard";
 import styles from "./Game.module.css"
 import { useState } from "react";
@@ -155,10 +155,8 @@ const HistoryDisplay = (props:{history: Puzzle[]})=>{
     </div>
 }
 
-const Game = ()=>{
-    const {guesses} = useParams();
-
-    const g = parseInt(guesses!);
+const Game = (props: {guesses: number})=>{
+    const g = props.guesses;
 
     const [history, setHistory] = useState<Puzzle[]>([]);
     const [current, setCurrent] = useState<Puzzle>({answer:pickWord([]), guesses:[]});

@@ -1,19 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home';
 import Game from './Game';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="game/:guesses" element={<Game />} />
-    </Routes>
-    </BrowserRouter>
+    <Game guesses={12}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

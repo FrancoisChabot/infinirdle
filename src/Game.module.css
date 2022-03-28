@@ -1,0 +1,45 @@
+.letterRow {
+    display: flex;
+
+}
+
+.letter {
+    font-size: 2rem;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.smallLetter {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.basic {
+    background-color:white;
+}
+.good {
+    background-color:green;
+}
+.bad {
+    background-color:grey;
+}
+.misplaced {    
+    background-color:yellow;
+}
+
+.vsep {    
+    width: 2px;
+    background-color: gray;
+    
+}
+
+
+.historyContainer {
+    display: flex;
+}
+

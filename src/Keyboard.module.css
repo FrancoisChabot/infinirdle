@@ -1,0 +1,21 @@
+.key {
+    font-size: 2em;
+    flex-grow: 1;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 10px 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.bigKey {
+    flex-grow: 1.5;
+}
+
+.spacer {
+    flex-grow: 0.5;
+}

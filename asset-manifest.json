@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/infinirdle/static/css/main.c085331d.css",
-    "main.js": "/infinirdle/static/js/main.1dadd3e1.js",
+    "main.js": "/infinirdle/static/js/main.986684ba.js",
     "static/js/787.92cfd716.chunk.js": "/infinirdle/static/js/787.92cfd716.chunk.js",
     "index.html": "/infinirdle/index.html",
     "main.c085331d.css.map": "/infinirdle/static/css/main.c085331d.css.map",
-    "main.1dadd3e1.js.map": "/infinirdle/static/js/main.1dadd3e1.js.map",
+    "main.986684ba.js.map": "/infinirdle/static/js/main.986684ba.js.map",
     "787.92cfd716.chunk.js.map": "/infinirdle/static/js/787.92cfd716.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c085331d.css",
-    "static/js/main.1dadd3e1.js"
+    "static/js/main.986684ba.js"
   ]
 }
